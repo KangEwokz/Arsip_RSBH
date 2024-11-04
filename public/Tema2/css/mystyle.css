@@ -1,0 +1,152 @@
+/* CSS untuk card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.card2 {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body2 {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card-link:hover {
+    color: #0056b3;
+}
+
+.tombol {
+    height: 44.47px; /* Tambahkan unit px untuk ketinggian */
+    width: 94.9px; /* Tambahkan unit px untuk lebar */
+    padding: 0;
+}
+
+/* CSS untuk efek hover pada card */
+.card:hover {
+    transform: scale(1.05); /* Memperbesar card saat dihover */
+    transition: transform 0.3s ease; /* Animasi perubahan ukuran card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan shadow saat dihover */
+}
+
+.text-aktif {
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* tambahan efek bayangan */
+    transition: background-color 0.3s ease; /* transisi warna latar belakang saat hover */
+}
+
+.text-non-aktif {
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* tambahan efek bayangan */
+    transition: background-color 0.3s ease; /* transisi warna latar belakang saat hover */
+}
+
+.text-cuti {
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* tambahan efek bayangan */
+    transition: background-color 0.3s ease; /* transisi warna latar belakang saat hover */
+}
+
+.text-drop-out {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* tambahan efek bayangan */
+    transition: background-color 0.3s ease; /* transisi warna latar belakang saat hover */
+}
+
+/* efek transisi saat hover */
+.text-aktif:hover,
+.text-non-aktif:hover,
+.text-cuti:hover,
+.text-drop-out:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Ubah warna latar belakang saat hover */
+}
+
+
+.container {
+    border: 2px solid #000;
+    width: 2%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0.5%;
+}
+
+.header,
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-style: dashed;
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    border: none;
+    padding: 10px;
+    text-align: left;
+}
+
+.content {
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.footer {
+    text-align: right;
+    margin-top: 20px;
+}
